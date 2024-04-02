@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D03DCCC32BB576C900CF07A1 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = D03DCCC22BB576C900CF07A1 /* Lottie */; };
+		D045CED32BB7E868004DA31B /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D045CED22BB7E868004DA31B /* UserModel.swift */; };
+		D045CED52BB7EABF004DA31B /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D045CED42BB7EABF004DA31B /* UserController.swift */; };
+		D045CED82BB7EE7F004DA31B /* SurahModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D045CED72BB7EE7F004DA31B /* SurahModel.swift */; };
+		D04A663B2BB73E0200CCAB80 /* ngaji_loading.json in Resources */ = {isa = PBXBuildFile; fileRef = D04A663A2BB73E0200CCAB80 /* ngaji_loading.json */; };
 		D0BBE5942BB566BF002C9766 /* go_ngajiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BBE5932BB566BF002C9766 /* go_ngajiApp.swift */; };
 		D0BBE5962BB566BF002C9766 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BBE5952BB566BF002C9766 /* ContentView.swift */; };
 		D0BBE5982BB566C2002C9766 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BBE5972BB566C2002C9766 /* Assets.xcassets */; };
@@ -14,6 +19,10 @@
 		D0BBE5A52BB566C2002C9766 /* go_ngajiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BBE5A42BB566C2002C9766 /* go_ngajiTests.swift */; };
 		D0BBE5AF2BB566C2002C9766 /* go_ngajiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BBE5AE2BB566C2002C9766 /* go_ngajiUITests.swift */; };
 		D0BBE5B12BB566C2002C9766 /* go_ngajiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BBE5B02BB566C2002C9766 /* go_ngajiUITestsLaunchTests.swift */; };
+		D0E172392BB7305A00F9631E /* servishero_loading.json in Resources */ = {isa = PBXBuildFile; fileRef = D0E172382BB7305A00F9631E /* servishero_loading.json */; };
+		D0FE1B192BBB0FFF008736FE /* surahData.json in Resources */ = {isa = PBXBuildFile; fileRef = D0FE1B182BBB0FFF008736FE /* surahData.json */; };
+		D0FE1B1B2BBB1072008736FE /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE1B1A2BBB1072008736FE /* ModelData.swift */; };
+		D0FE1B1D2BBB15D9008736FE /* LottieViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE1B1C2BBB15D9008736FE /* LottieViewComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D045CED22BB7E868004DA31B /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		D045CED42BB7EABF004DA31B /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		D045CED72BB7EE7F004DA31B /* SurahModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurahModel.swift; sourceTree = "<group>"; };
+		D04A663A2BB73E0200CCAB80 /* ngaji_loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ngaji_loading.json; sourceTree = "<group>"; };
 		D0BBE5902BB566BF002C9766 /* go-ngaji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "go-ngaji.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0BBE5932BB566BF002C9766 /* go_ngajiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = go_ngajiApp.swift; sourceTree = "<group>"; };
 		D0BBE5952BB566BF002C9766 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +57,10 @@
 		D0BBE5AA2BB566C2002C9766 /* go-ngajiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "go-ngajiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0BBE5AE2BB566C2002C9766 /* go_ngajiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = go_ngajiUITests.swift; sourceTree = "<group>"; };
 		D0BBE5B02BB566C2002C9766 /* go_ngajiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = go_ngajiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0E172382BB7305A00F9631E /* servishero_loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = servishero_loading.json; sourceTree = "<group>"; };
+		D0FE1B182BBB0FFF008736FE /* surahData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = surahData.json; sourceTree = "<group>"; };
+		D0FE1B1A2BBB1072008736FE /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		D0FE1B1C2BBB15D9008736FE /* LottieViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D03DCCC32BB576C900CF07A1 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,11 +89,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D037A3162BBC142E00CAFAE6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D045CED12BB7E7B7004DA31B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D045CED22BB7E868004DA31B /* UserModel.swift */,
+				D045CED72BB7EE7F004DA31B /* SurahModel.swift */,
+				D0FE1B1A2BBB1072008736FE /* ModelData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D045CED62BB7EAC4004DA31B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D045CED42BB7EABF004DA31B /* UserController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		D0BBE5872BB566BF002C9766 = {
 			isa = PBXGroup;
 			children = (
 				D0BBE5922BB566BF002C9766 /* go-ngaji */,
-				D0BBE5A32BB566C2002C9766 /* go-ngajiTests */,
 				D0BBE5AD2BB566C2002C9766 /* go-ngajiUITests */,
 				D0BBE5912BB566BF002C9766 /* Products */,
 			);
@@ -94,10 +136,16 @@
 		D0BBE5922BB566BF002C9766 /* go-ngaji */ = {
 			isa = PBXGroup;
 			children = (
+				D0FE1B1C2BBB15D9008736FE /* LottieViewComponent.swift */,
+				D037A3162BBC142E00CAFAE6 /* Views */,
+				D0FE1B172BBB0FC8008736FE /* Resources */,
+				D045CED62BB7EAC4004DA31B /* Controllers */,
+				D045CED12BB7E7B7004DA31B /* Models */,
 				D0BBE5932BB566BF002C9766 /* go_ngajiApp.swift */,
 				D0BBE5952BB566BF002C9766 /* ContentView.swift */,
 				D0BBE5972BB566C2002C9766 /* Assets.xcassets */,
 				D0BBE5992BB566C2002C9766 /* Preview Content */,
+				D0BBE5A32BB566C2002C9766 /* go-ngajiTests */,
 			);
 			path = "go-ngaji";
 			sourceTree = "<group>";
@@ -127,6 +175,16 @@
 			path = "go-ngajiUITests";
 			sourceTree = "<group>";
 		};
+		D0FE1B172BBB0FC8008736FE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D04A663A2BB73E0200CCAB80 /* ngaji_loading.json */,
+				D0E172382BB7305A00F9631E /* servishero_loading.json */,
+				D0FE1B182BBB0FFF008736FE /* surahData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +201,9 @@
 			dependencies = (
 			);
 			name = "go-ngaji";
+			packageProductDependencies = (
+				D03DCCC22BB576C900CF07A1 /* Lottie */,
+			);
 			productName = "go-ngaji";
 			productReference = D0BBE5902BB566BF002C9766 /* go-ngaji.app */;
 			productType = "com.apple.product-type.application";
@@ -234,8 +295,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0FE1B192BBB0FFF008736FE /* surahData.json in Resources */,
 				D0BBE59B2BB566C2002C9766 /* Preview Assets.xcassets in Resources */,
 				D0BBE5982BB566C2002C9766 /* Assets.xcassets in Resources */,
+				D0E172392BB7305A00F9631E /* servishero_loading.json in Resources */,
+				D04A663B2BB73E0200CCAB80 /* ngaji_loading.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +325,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0BBE5962BB566BF002C9766 /* ContentView.swift in Sources */,
+				D045CED32BB7E868004DA31B /* UserModel.swift in Sources */,
+				D045CED82BB7EE7F004DA31B /* SurahModel.swift in Sources */,
+				D045CED52BB7EABF004DA31B /* UserController.swift in Sources */,
+				D0FE1B1D2BBB15D9008736FE /* LottieViewComponent.swift in Sources */,
 				D0BBE5942BB566BF002C9766 /* go_ngajiApp.swift in Sources */,
+				D0FE1B1B2BBB1072008736FE /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +671,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D03DCCC22BB576C900CF07A1 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0AB19CB2BB567FB004C592E /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D0BBE5882BB566BF002C9766 /* Project object */;
 }
