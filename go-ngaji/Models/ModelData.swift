@@ -10,6 +10,9 @@ import Foundation
 @Observable
 class ModelData {
     var surah: [SurahModel] = loadData("surahData.json")
+    var dailyMission: [DailyMissionModel] = loadData("dailyMission.json")
+    var weeklyMission: [WeeklyMissionModel] = loadData("weeklyMission.json")
+    var missionType: [MissionTypeModel] = loadData("missionTypeData.json")
 }
 
 func loadData<T: Decodable>(_ fileName: String) -> T {

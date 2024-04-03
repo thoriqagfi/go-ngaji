@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D00C45D22BBD97C9004D44B1 /* weeklyMission.json in Resources */ = {isa = PBXBuildFile; fileRef = D00C45D12BBD97C9004D44B1 /* weeklyMission.json */; };
+		D00C45D42BBDA1BC004D44B1 /* WeeklyMissionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C45D32BBDA1BC004D44B1 /* WeeklyMissionModel.swift */; };
+		D00C45D72BBDC088004D44B1 /* missionTypeData.json in Resources */ = {isa = PBXBuildFile; fileRef = D00C45D62BBDC088004D44B1 /* missionTypeData.json */; };
+		D00C45D92BBDC0CC004D44B1 /* MissionTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C45D82BBDC0CC004D44B1 /* MissionTypeModel.swift */; };
+		D00C45DB2BBDC1BC004D44B1 /* HomeUserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C45DA2BBDC1BC004D44B1 /* HomeUserProfile.swift */; };
+		D00C45DD2BBDC1ED004D44B1 /* StreakCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C45DC2BBDC1ED004D44B1 /* StreakCard.swift */; };
+		D00C45DF2BBDC222004D44B1 /* HomeProgressCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C45DE2BBDC222004D44B1 /* HomeProgressCard.swift */; };
+		D00C45E12BBDC23E004D44B1 /* HomeDailyMissionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C45E02BBDC23E004D44B1 /* HomeDailyMissionCard.swift */; };
+		D00C45E32BBDC25A004D44B1 /* HomeWeeklyMissionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C45E22BBDC25A004D44B1 /* HomeWeeklyMissionCard.swift */; };
+		D00C45E52BBDC270004D44B1 /* HomeMotivationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C45E42BBDC270004D44B1 /* HomeMotivationCard.swift */; };
+		D00C45E72BBDC28C004D44B1 /* HomeMissionTypeTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C45E62BBDC28C004D44B1 /* HomeMissionTypeTitle.swift */; };
+		D00C45EA2BBDC94E004D44B1 /* MissionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C45E92BBDC94E004D44B1 /* MissionPage.swift */; };
+		D00C45ED2BBDF0AE004D44B1 /* LeaderboardPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C45EC2BBDF0AE004D44B1 /* LeaderboardPage.swift */; };
 		D03DCCC32BB576C900CF07A1 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = D03DCCC22BB576C900CF07A1 /* Lottie */; };
 		D045CED32BB7E868004DA31B /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D045CED22BB7E868004DA31B /* UserModel.swift */; };
 		D045CED52BB7EABF004DA31B /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D045CED42BB7EABF004DA31B /* UserController.swift */; };
@@ -19,6 +32,9 @@
 		D0BBE5A52BB566C2002C9766 /* go_ngajiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BBE5A42BB566C2002C9766 /* go_ngajiTests.swift */; };
 		D0BBE5AF2BB566C2002C9766 /* go_ngajiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BBE5AE2BB566C2002C9766 /* go_ngajiUITests.swift */; };
 		D0BBE5B12BB566C2002C9766 /* go_ngajiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BBE5B02BB566C2002C9766 /* go_ngajiUITestsLaunchTests.swift */; };
+		D0CE293F2BBC5930000F2A50 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CE293E2BBC5930000F2A50 /* HomePage.swift */; };
+		D0CE29412BBD394B000F2A50 /* dailyMission.json in Resources */ = {isa = PBXBuildFile; fileRef = D0CE29402BBD394B000F2A50 /* dailyMission.json */; };
+		D0CE29432BBD3AF3000F2A50 /* DailyMissionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CE29422BBD3AF3000F2A50 /* DailyMissionModel.swift */; };
 		D0E172392BB7305A00F9631E /* servishero_loading.json in Resources */ = {isa = PBXBuildFile; fileRef = D0E172382BB7305A00F9631E /* servishero_loading.json */; };
 		D0FE1B192BBB0FFF008736FE /* surahData.json in Resources */ = {isa = PBXBuildFile; fileRef = D0FE1B182BBB0FFF008736FE /* surahData.json */; };
 		D0FE1B1B2BBB1072008736FE /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE1B1A2BBB1072008736FE /* ModelData.swift */; };
@@ -43,6 +59,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D00C45D12BBD97C9004D44B1 /* weeklyMission.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = weeklyMission.json; sourceTree = "<group>"; };
+		D00C45D32BBDA1BC004D44B1 /* WeeklyMissionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyMissionModel.swift; sourceTree = "<group>"; };
+		D00C45D62BBDC088004D44B1 /* missionTypeData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = missionTypeData.json; sourceTree = "<group>"; };
+		D00C45D82BBDC0CC004D44B1 /* MissionTypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionTypeModel.swift; sourceTree = "<group>"; };
+		D00C45DA2BBDC1BC004D44B1 /* HomeUserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUserProfile.swift; sourceTree = "<group>"; };
+		D00C45DC2BBDC1ED004D44B1 /* StreakCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakCard.swift; sourceTree = "<group>"; };
+		D00C45DE2BBDC222004D44B1 /* HomeProgressCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProgressCard.swift; sourceTree = "<group>"; };
+		D00C45E02BBDC23E004D44B1 /* HomeDailyMissionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDailyMissionCard.swift; sourceTree = "<group>"; };
+		D00C45E22BBDC25A004D44B1 /* HomeWeeklyMissionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWeeklyMissionCard.swift; sourceTree = "<group>"; };
+		D00C45E42BBDC270004D44B1 /* HomeMotivationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMotivationCard.swift; sourceTree = "<group>"; };
+		D00C45E62BBDC28C004D44B1 /* HomeMissionTypeTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMissionTypeTitle.swift; sourceTree = "<group>"; };
+		D00C45E92BBDC94E004D44B1 /* MissionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionPage.swift; sourceTree = "<group>"; };
+		D00C45EC2BBDF0AE004D44B1 /* LeaderboardPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardPage.swift; sourceTree = "<group>"; };
 		D045CED22BB7E868004DA31B /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		D045CED42BB7EABF004DA31B /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
 		D045CED72BB7EE7F004DA31B /* SurahModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurahModel.swift; sourceTree = "<group>"; };
@@ -57,6 +86,9 @@
 		D0BBE5AA2BB566C2002C9766 /* go-ngajiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "go-ngajiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0BBE5AE2BB566C2002C9766 /* go_ngajiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = go_ngajiUITests.swift; sourceTree = "<group>"; };
 		D0BBE5B02BB566C2002C9766 /* go_ngajiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = go_ngajiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0CE293E2BBC5930000F2A50 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		D0CE29402BBD394B000F2A50 /* dailyMission.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dailyMission.json; sourceTree = "<group>"; };
+		D0CE29422BBD3AF3000F2A50 /* DailyMissionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyMissionModel.swift; sourceTree = "<group>"; };
 		D0E172382BB7305A00F9631E /* servishero_loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = servishero_loading.json; sourceTree = "<group>"; };
 		D0FE1B182BBB0FFF008736FE /* surahData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = surahData.json; sourceTree = "<group>"; };
 		D0FE1B1A2BBB1072008736FE /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
@@ -89,9 +121,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D00C45D52BBDB6F0004D44B1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D00C45DA2BBDC1BC004D44B1 /* HomeUserProfile.swift */,
+				D00C45DC2BBDC1ED004D44B1 /* StreakCard.swift */,
+				D00C45DE2BBDC222004D44B1 /* HomeProgressCard.swift */,
+				D00C45E02BBDC23E004D44B1 /* HomeDailyMissionCard.swift */,
+				D00C45E22BBDC25A004D44B1 /* HomeWeeklyMissionCard.swift */,
+				D00C45E42BBDC270004D44B1 /* HomeMotivationCard.swift */,
+				D00C45E62BBDC28C004D44B1 /* HomeMissionTypeTitle.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D00C45E82BBDC92D004D44B1 /* Mission */ = {
+			isa = PBXGroup;
+			children = (
+				D00C45E92BBDC94E004D44B1 /* MissionPage.swift */,
+			);
+			path = Mission;
+			sourceTree = "<group>";
+		};
+		D00C45EB2BBDF099004D44B1 /* Leaderboard */ = {
+			isa = PBXGroup;
+			children = (
+				D00C45EC2BBDF0AE004D44B1 /* LeaderboardPage.swift */,
+			);
+			path = Leaderboard;
+			sourceTree = "<group>";
+		};
 		D037A3162BBC142E00CAFAE6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D00C45EB2BBDF099004D44B1 /* Leaderboard */,
+				D00C45E82BBDC92D004D44B1 /* Mission */,
+				D00C45D52BBDB6F0004D44B1 /* Home */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -102,6 +167,9 @@
 				D045CED22BB7E868004DA31B /* UserModel.swift */,
 				D045CED72BB7EE7F004DA31B /* SurahModel.swift */,
 				D0FE1B1A2BBB1072008736FE /* ModelData.swift */,
+				D00C45D32BBDA1BC004D44B1 /* WeeklyMissionModel.swift */,
+				D00C45D82BBDC0CC004D44B1 /* MissionTypeModel.swift */,
+				D0CE29422BBD3AF3000F2A50 /* DailyMissionModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -146,6 +214,7 @@
 				D0BBE5972BB566C2002C9766 /* Assets.xcassets */,
 				D0BBE5992BB566C2002C9766 /* Preview Content */,
 				D0BBE5A32BB566C2002C9766 /* go-ngajiTests */,
+				D0CE293E2BBC5930000F2A50 /* HomePage.swift */,
 			);
 			path = "go-ngaji";
 			sourceTree = "<group>";
@@ -181,6 +250,9 @@
 				D04A663A2BB73E0200CCAB80 /* ngaji_loading.json */,
 				D0E172382BB7305A00F9631E /* servishero_loading.json */,
 				D0FE1B182BBB0FFF008736FE /* surahData.json */,
+				D0CE29402BBD394B000F2A50 /* dailyMission.json */,
+				D00C45D12BBD97C9004D44B1 /* weeklyMission.json */,
+				D00C45D62BBDC088004D44B1 /* missionTypeData.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -295,8 +367,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D00C45D22BBD97C9004D44B1 /* weeklyMission.json in Resources */,
 				D0FE1B192BBB0FFF008736FE /* surahData.json in Resources */,
+				D00C45D72BBDC088004D44B1 /* missionTypeData.json in Resources */,
 				D0BBE59B2BB566C2002C9766 /* Preview Assets.xcassets in Resources */,
+				D0CE29412BBD394B000F2A50 /* dailyMission.json in Resources */,
 				D0BBE5982BB566C2002C9766 /* Assets.xcassets in Resources */,
 				D0E172392BB7305A00F9631E /* servishero_loading.json in Resources */,
 				D04A663B2BB73E0200CCAB80 /* ngaji_loading.json in Resources */,
@@ -326,11 +401,24 @@
 			files = (
 				D0BBE5962BB566BF002C9766 /* ContentView.swift in Sources */,
 				D045CED32BB7E868004DA31B /* UserModel.swift in Sources */,
+				D00C45E72BBDC28C004D44B1 /* HomeMissionTypeTitle.swift in Sources */,
+				D0CE29432BBD3AF3000F2A50 /* DailyMissionModel.swift in Sources */,
+				D00C45E12BBDC23E004D44B1 /* HomeDailyMissionCard.swift in Sources */,
 				D045CED82BB7EE7F004DA31B /* SurahModel.swift in Sources */,
 				D045CED52BB7EABF004DA31B /* UserController.swift in Sources */,
+				D00C45DD2BBDC1ED004D44B1 /* StreakCard.swift in Sources */,
 				D0FE1B1D2BBB15D9008736FE /* LottieViewComponent.swift in Sources */,
+				D00C45EA2BBDC94E004D44B1 /* MissionPage.swift in Sources */,
+				D00C45ED2BBDF0AE004D44B1 /* LeaderboardPage.swift in Sources */,
 				D0BBE5942BB566BF002C9766 /* go_ngajiApp.swift in Sources */,
 				D0FE1B1B2BBB1072008736FE /* ModelData.swift in Sources */,
+				D0CE293F2BBC5930000F2A50 /* HomePage.swift in Sources */,
+				D00C45DB2BBDC1BC004D44B1 /* HomeUserProfile.swift in Sources */,
+				D00C45E32BBDC25A004D44B1 /* HomeWeeklyMissionCard.swift in Sources */,
+				D00C45D92BBDC0CC004D44B1 /* MissionTypeModel.swift in Sources */,
+				D00C45D42BBDA1BC004D44B1 /* WeeklyMissionModel.swift in Sources */,
+				D00C45E52BBDC270004D44B1 /* HomeMotivationCard.swift in Sources */,
+				D00C45DF2BBDC222004D44B1 /* HomeProgressCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

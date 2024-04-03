@@ -1,0 +1,33 @@
+[
+        {
+            "name": "Al Waqiah",
+            "image": "Al Waqiah",
+            "timeRecommendation": "Malam Jumat",
+            "point": 80
+        },
+        {
+            "name": "Al Mulk",
+            "image": "Al Mulk",
+            "timeRecommendation": "Malam Jumat",
+            "point": 80
+        },
+        {
+            "name": "Yasin",
+            "image": "Yasin",
+            "timeRecommendation": "Malam Jumat",
+            "point": 80
+        },
+        {
+            "name": "Ar Rahman",
+            "image": "Ar Rahman",
+            "timeRecommendation": "Malam Jumat",
+            "point": 80
+        },
+        {
+            "name": "Al Kahfi",
+            "image": "Al Kahfi",
+            "timeRecommendation": "Malam Jumat",
+            "point": 80
+        },
+]
+

@@ -1,0 +1,10 @@
+[
+        {
+            "type": "Harian",
+            "variety": 2
+        },
+        {
+            "type": "Mingguan",
+            "variety": 5
+        }
+]

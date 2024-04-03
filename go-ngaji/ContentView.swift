@@ -17,22 +17,26 @@ struct ContentView: View {
     }
     
     var body: some View {
-        TabView(selection: $selection,
-                content:  {
-            Text("Tab Content 1")
-                .tabItem {
-                    Label("Home", systemImage: "star")
-                }
-                .tag(Tab.home)
-            LottieViewComponent()
-                .tabItem {
-                    Label("Chosen Surah", systemImage: "list.bullet")
-                }
-                .tag(Tab.lottie)
-        })
+//        TabView(selection: $selection,
+//                content:  {
+                HomePage()
+//                .padding(.vertical)
+//                    .tabItem {
+//                        Label("Home", systemImage: "house")
+//                    }
+//                    .tag(Tab.home)
+//                    .listStyle(.inset)
+//                LottieViewComponent()
+//                    .tabItem {
+//                        Label("Chosen Surah", systemImage: "list.bullet")
+//                    }
+//                    .tag(Tab.lottie)
+//        })
+//        .listStyle(.inset)
         }
 }
 
 #Preview {
     ContentView()
+        .environment(ModelData())
 }
