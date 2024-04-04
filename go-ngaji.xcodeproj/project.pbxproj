@@ -7,11 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1D16C062BBC174D008F987E /* PageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D16C052BBC174D008F987E /* PageDetailView.swift */; };
+		B1D16C082BBC63B7008F987E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D16C072BBC63B7008F987E /* HomeView.swift */; };
+		B1D16C0A2BBC6DBF008F987E /* DailyMissionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D16C092BBC6DBF008F987E /* DailyMissionCard.swift */; };
+		B1D16C0C2BBC71DD008F987E /* DailiMissionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D16C0B2BBC71DD008F987E /* DailiMissionRow.swift */; };
+		B1D16C172BBC830E008F987E /* servishero_loading.json in Resources */ = {isa = PBXBuildFile; fileRef = B1D16C142BBC830E008F987E /* servishero_loading.json */; };
+		B1D16C182BBC830E008F987E /* ngaji_loading.json in Resources */ = {isa = PBXBuildFile; fileRef = B1D16C152BBC830E008F987E /* ngaji_loading.json */; };
+		B1D16C192BBC830E008F987E /* surahData.json in Resources */ = {isa = PBXBuildFile; fileRef = B1D16C162BBC830E008F987E /* surahData.json */; };
+		B1D16C1D2BBC834B008F987E /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = B1D16C1C2BBC834B008F987E /* test.json */; };
+		B1D16C1F2BBC8409008F987E /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D16C1E2BBC8409008F987E /* TestModel.swift */; };
+		B1D16C212BBDB2CC008F987E /* FinishMissionPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D16C202BBDB2CC008F987E /* FinishMissionPageView.swift */; };
 		D03DCCC32BB576C900CF07A1 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = D03DCCC22BB576C900CF07A1 /* Lottie */; };
 		D045CED32BB7E868004DA31B /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D045CED22BB7E868004DA31B /* UserModel.swift */; };
 		D045CED52BB7EABF004DA31B /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D045CED42BB7EABF004DA31B /* UserController.swift */; };
 		D045CED82BB7EE7F004DA31B /* SurahModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D045CED72BB7EE7F004DA31B /* SurahModel.swift */; };
-		D04A663B2BB73E0200CCAB80 /* ngaji_loading.json in Resources */ = {isa = PBXBuildFile; fileRef = D04A663A2BB73E0200CCAB80 /* ngaji_loading.json */; };
 		D0BBE5942BB566BF002C9766 /* go_ngajiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BBE5932BB566BF002C9766 /* go_ngajiApp.swift */; };
 		D0BBE5962BB566BF002C9766 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BBE5952BB566BF002C9766 /* ContentView.swift */; };
 		D0BBE5982BB566C2002C9766 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BBE5972BB566C2002C9766 /* Assets.xcassets */; };
@@ -19,8 +28,6 @@
 		D0BBE5A52BB566C2002C9766 /* go_ngajiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BBE5A42BB566C2002C9766 /* go_ngajiTests.swift */; };
 		D0BBE5AF2BB566C2002C9766 /* go_ngajiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BBE5AE2BB566C2002C9766 /* go_ngajiUITests.swift */; };
 		D0BBE5B12BB566C2002C9766 /* go_ngajiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BBE5B02BB566C2002C9766 /* go_ngajiUITestsLaunchTests.swift */; };
-		D0E172392BB7305A00F9631E /* servishero_loading.json in Resources */ = {isa = PBXBuildFile; fileRef = D0E172382BB7305A00F9631E /* servishero_loading.json */; };
-		D0FE1B192BBB0FFF008736FE /* surahData.json in Resources */ = {isa = PBXBuildFile; fileRef = D0FE1B182BBB0FFF008736FE /* surahData.json */; };
 		D0FE1B1B2BBB1072008736FE /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE1B1A2BBB1072008736FE /* ModelData.swift */; };
 		D0FE1B1D2BBB15D9008736FE /* LottieViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE1B1C2BBB15D9008736FE /* LottieViewComponent.swift */; };
 /* End PBXBuildFile section */
@@ -43,10 +50,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B1D16C052BBC174D008F987E /* PageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PageDetailView.swift; path = "go-ngaji/PageDetailView.swift"; sourceTree = SOURCE_ROOT; };
+		B1D16C072BBC63B7008F987E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = "go-ngaji/HomeView.swift"; sourceTree = SOURCE_ROOT; };
+		B1D16C092BBC6DBF008F987E /* DailyMissionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DailyMissionCard.swift; path = "go-ngaji/DailyMissionCard.swift"; sourceTree = SOURCE_ROOT; };
+		B1D16C0B2BBC71DD008F987E /* DailiMissionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DailiMissionRow.swift; path = "go-ngaji/DailiMissionRow.swift"; sourceTree = SOURCE_ROOT; };
+		B1D16C142BBC830E008F987E /* servishero_loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = servishero_loading.json; path = "../../../../../Downloads/go-ngaji-main/go-ngaji/Resources/servishero_loading.json"; sourceTree = "<group>"; };
+		B1D16C152BBC830E008F987E /* ngaji_loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ngaji_loading.json; path = "../../../../../Downloads/go-ngaji-main/go-ngaji/Resources/ngaji_loading.json"; sourceTree = "<group>"; };
+		B1D16C162BBC830E008F987E /* surahData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = surahData.json; path = "../../../../../Downloads/go-ngaji-main/go-ngaji/Resources/surahData.json"; sourceTree = "<group>"; };
+		B1D16C1C2BBC834B008F987E /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = test.json; path = ../../../../../Downloads/test.json; sourceTree = "<group>"; };
+		B1D16C1E2BBC8409008F987E /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
+		B1D16C202BBDB2CC008F987E /* FinishMissionPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FinishMissionPageView.swift; path = "go-ngaji/Models/FinishMissionPageView.swift"; sourceTree = SOURCE_ROOT; };
 		D045CED22BB7E868004DA31B /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		D045CED42BB7EABF004DA31B /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
 		D045CED72BB7EE7F004DA31B /* SurahModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurahModel.swift; sourceTree = "<group>"; };
-		D04A663A2BB73E0200CCAB80 /* ngaji_loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ngaji_loading.json; sourceTree = "<group>"; };
 		D0BBE5902BB566BF002C9766 /* go-ngaji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "go-ngaji.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0BBE5932BB566BF002C9766 /* go_ngajiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = go_ngajiApp.swift; sourceTree = "<group>"; };
 		D0BBE5952BB566BF002C9766 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,8 +73,6 @@
 		D0BBE5AA2BB566C2002C9766 /* go-ngajiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "go-ngajiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0BBE5AE2BB566C2002C9766 /* go_ngajiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = go_ngajiUITests.swift; sourceTree = "<group>"; };
 		D0BBE5B02BB566C2002C9766 /* go_ngajiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = go_ngajiUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D0E172382BB7305A00F9631E /* servishero_loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = servishero_loading.json; sourceTree = "<group>"; };
-		D0FE1B182BBB0FFF008736FE /* surahData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = surahData.json; sourceTree = "<group>"; };
 		D0FE1B1A2BBB1072008736FE /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		D0FE1B1C2BBB15D9008736FE /* LottieViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,6 +106,11 @@
 		D037A3162BBC142E00CAFAE6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B1D16C052BBC174D008F987E /* PageDetailView.swift */,
+				B1D16C072BBC63B7008F987E /* HomeView.swift */,
+				B1D16C092BBC6DBF008F987E /* DailyMissionCard.swift */,
+				B1D16C0B2BBC71DD008F987E /* DailiMissionRow.swift */,
+				B1D16C202BBDB2CC008F987E /* FinishMissionPageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -102,6 +121,7 @@
 				D045CED22BB7E868004DA31B /* UserModel.swift */,
 				D045CED72BB7EE7F004DA31B /* SurahModel.swift */,
 				D0FE1B1A2BBB1072008736FE /* ModelData.swift */,
+				B1D16C1E2BBC8409008F987E /* TestModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -178,9 +198,10 @@
 		D0FE1B172BBB0FC8008736FE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D04A663A2BB73E0200CCAB80 /* ngaji_loading.json */,
-				D0E172382BB7305A00F9631E /* servishero_loading.json */,
-				D0FE1B182BBB0FFF008736FE /* surahData.json */,
+				B1D16C152BBC830E008F987E /* ngaji_loading.json */,
+				B1D16C142BBC830E008F987E /* servishero_loading.json */,
+				B1D16C1C2BBC834B008F987E /* test.json */,
+				B1D16C162BBC830E008F987E /* surahData.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -295,11 +316,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0FE1B192BBB0FFF008736FE /* surahData.json in Resources */,
 				D0BBE59B2BB566C2002C9766 /* Preview Assets.xcassets in Resources */,
 				D0BBE5982BB566C2002C9766 /* Assets.xcassets in Resources */,
-				D0E172392BB7305A00F9631E /* servishero_loading.json in Resources */,
-				D04A663B2BB73E0200CCAB80 /* ngaji_loading.json in Resources */,
+				B1D16C192BBC830E008F987E /* surahData.json in Resources */,
+				B1D16C172BBC830E008F987E /* servishero_loading.json in Resources */,
+				B1D16C182BBC830E008F987E /* ngaji_loading.json in Resources */,
+				B1D16C1D2BBC834B008F987E /* test.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,12 +346,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1D16C082BBC63B7008F987E /* HomeView.swift in Sources */,
 				D0BBE5962BB566BF002C9766 /* ContentView.swift in Sources */,
 				D045CED32BB7E868004DA31B /* UserModel.swift in Sources */,
+				B1D16C1F2BBC8409008F987E /* TestModel.swift in Sources */,
+				B1D16C062BBC174D008F987E /* PageDetailView.swift in Sources */,
 				D045CED82BB7EE7F004DA31B /* SurahModel.swift in Sources */,
+				B1D16C0C2BBC71DD008F987E /* DailiMissionRow.swift in Sources */,
 				D045CED52BB7EABF004DA31B /* UserController.swift in Sources */,
 				D0FE1B1D2BBB15D9008736FE /* LottieViewComponent.swift in Sources */,
 				D0BBE5942BB566BF002C9766 /* go_ngajiApp.swift in Sources */,
+				B1D16C212BBDB2CC008F987E /* FinishMissionPageView.swift in Sources */,
+				B1D16C0A2BBC6DBF008F987E /* DailyMissionCard.swift in Sources */,
 				D0FE1B1B2BBB1072008736FE /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,7 +522,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"go-ngaji/Preview Content\"";
-				DEVELOPMENT_TEAM = H84M48MBJL;
+				DEVELOPMENT_TEAM = H389J7W85Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -502,12 +530,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Agfi-Hermawan.go-ngaji";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reza.ada;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -523,7 +552,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"go-ngaji/Preview Content\"";
-				DEVELOPMENT_TEAM = H84M48MBJL;
+				DEVELOPMENT_TEAM = H389J7W85Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -531,12 +560,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Agfi-Hermawan.go-ngaji";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reza.ada;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
