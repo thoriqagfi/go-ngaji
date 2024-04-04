@@ -10,18 +10,17 @@ import Foundation
 struct UserModel {
     var name: String
     var email: String
+    var profileImage: String
     var username: String
     var password: String
+    var streak: Int
+    var dailyMissionProgress: Int
+    var point: Int
+    var isBacaanPagi: Bool
+    var isBacaanPetang: Bool
     
     static func generateAgfiUser() -> UserModel {
-        let user = UserModel(name: "Agfi", email: "thoriq.aghfi60@gmail.com", username: "thoriqagfi", password: "123456789")
+        let user = UserModel(name: "Riyadh", email: "thoriq.aghfi60@gmail.com", profileImage: "Profile Image", username: "thoriqagfi", password: "123456789", streak: 30, dailyMissionProgress: 0, point: 0, isBacaanPagi: false, isBacaanPetang: false)
         return user
     }
-}
-
-func generateDummyUser() -> [UserModel] {
-    let users = [
-        UserModel(name: "Agfi", email: "thoriq.aghfi60@gmail.com", username: "thoriqagfi", password: "123456789")
-    ]
-    return users
 }

@@ -1,0 +1,16 @@
+[
+        {
+            "title": "Bacaan \nPagi",
+            "image": "Bacaan Pagi",
+            "timeRecommendation": "05 - 09 AM",
+            "isMorning": true,
+            "isEvening": false
+        },
+        {
+            "title": "Bacaan \nPetang",
+            "image": "Bacaan Petang",
+            "timeRecommendation": "03 - 06 PM",
+            "isMorning": false,
+            "isEvening": true
+        }
+]

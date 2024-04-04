@@ -17,12 +17,27 @@ struct ContentView: View {
     }
     
     var body: some View {
-        VStack {
-            HomeView()
+//        TabView(selection: $selection,
+//                content:  {
+                HomePage()
+//                .padding(.vertical)
+//                    .tabItem {
+//                        Label("Home", systemImage: "house")
+//                    }
+//                    .tag(Tab.home)
+//                    .listStyle(.inset)
+//                LottieViewComponent()
+//                    .tabItem {
+//                        Label("Chosen Surah", systemImage: "list.bullet")
+//                    }
+//                    .tag(Tab.lottie)
+//        })
+//        .listStyle(.inset)
         }
     }
 }
 
 #Preview {
     ContentView()
+        .environment(ModelData())
 }

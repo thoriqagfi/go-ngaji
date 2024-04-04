@@ -7,11 +7,21 @@
 
 import Foundation
 
+<<<<<<< HEAD
 //@Observable
 //class ModelData {
 //    var surah: [SurahModel] = loadData("surahData.json")
 var testData: [TestModel] = loadData("test.json")
 //}
+=======
+@Observable
+class ModelData {
+    var surah: [SurahModel] = loadData("surahData.json")
+    var dailyMission: [DailyMissionModel] = loadData("dailyMission.json")
+    var weeklyMission: [WeeklyMissionModel] = loadData("weeklyMission.json")
+    var missionType: [MissionTypeModel] = loadData("missionTypeData.json")
+}
+>>>>>>> main
 
 func loadData<T: Decodable>(_ fileName: String) -> T {
     let data: Data
