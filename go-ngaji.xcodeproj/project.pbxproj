@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B13AFC422BBE77B200003138 /* MissionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13AFC412BBE77B200003138 /* MissionCard.swift */; };
+		B1D16C062BBC174D008F987E /* PageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D16C052BBC174D008F987E /* PageDetailView.swift */; };
+		B1D16C082BBC63B7008F987E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D16C072BBC63B7008F987E /* HomeView.swift */; };
+		B1D16C0A2BBC6DBF008F987E /* DailyMissionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D16C092BBC6DBF008F987E /* DailyMissionCard.swift */; };
+		B1D16C0C2BBC71DD008F987E /* DailiMissionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D16C0B2BBC71DD008F987E /* DailiMissionRow.swift */; };
+		B1D16C172BBC830E008F987E /* servishero_loading.json in Resources */ = {isa = PBXBuildFile; fileRef = B1D16C142BBC830E008F987E /* servishero_loading.json */; };
+		B1D16C182BBC830E008F987E /* ngaji_loading.json in Resources */ = {isa = PBXBuildFile; fileRef = B1D16C152BBC830E008F987E /* ngaji_loading.json */; };
+		B1D16C192BBC830E008F987E /* surahData.json in Resources */ = {isa = PBXBuildFile; fileRef = B1D16C162BBC830E008F987E /* surahData.json */; };
+		B1D16C1D2BBC834B008F987E /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = B1D16C1C2BBC834B008F987E /* test.json */; };
+		B1D16C1F2BBC8409008F987E /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D16C1E2BBC8409008F987E /* TestModel.swift */; };
+		B1D16C212BBDB2CC008F987E /* FinishMissionPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D16C202BBDB2CC008F987E /* FinishMissionPageView.swift */; };
 		D00C45D22BBD97C9004D44B1 /* weeklyMission.json in Resources */ = {isa = PBXBuildFile; fileRef = D00C45D12BBD97C9004D44B1 /* weeklyMission.json */; };
 		D00C45D42BBDA1BC004D44B1 /* WeeklyMissionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C45D32BBDA1BC004D44B1 /* WeeklyMissionModel.swift */; };
 		D00C45D72BBDC088004D44B1 /* missionTypeData.json in Resources */ = {isa = PBXBuildFile; fileRef = D00C45D62BBDC088004D44B1 /* missionTypeData.json */; };
@@ -20,16 +31,6 @@
 		D00C45E72BBDC28C004D44B1 /* HomeMissionTypeTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C45E62BBDC28C004D44B1 /* HomeMissionTypeTitle.swift */; };
 		D00C45EA2BBDC94E004D44B1 /* MissionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C45E92BBDC94E004D44B1 /* MissionPage.swift */; };
 		D00C45ED2BBDF0AE004D44B1 /* LeaderboardPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C45EC2BBDF0AE004D44B1 /* LeaderboardPage.swift */; };
-		B1D16C062BBC174D008F987E /* PageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D16C052BBC174D008F987E /* PageDetailView.swift */; };
-		B1D16C082BBC63B7008F987E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D16C072BBC63B7008F987E /* HomeView.swift */; };
-		B1D16C0A2BBC6DBF008F987E /* DailyMissionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D16C092BBC6DBF008F987E /* DailyMissionCard.swift */; };
-		B1D16C0C2BBC71DD008F987E /* DailiMissionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D16C0B2BBC71DD008F987E /* DailiMissionRow.swift */; };
-		B1D16C172BBC830E008F987E /* servishero_loading.json in Resources */ = {isa = PBXBuildFile; fileRef = B1D16C142BBC830E008F987E /* servishero_loading.json */; };
-		B1D16C182BBC830E008F987E /* ngaji_loading.json in Resources */ = {isa = PBXBuildFile; fileRef = B1D16C152BBC830E008F987E /* ngaji_loading.json */; };
-		B1D16C192BBC830E008F987E /* surahData.json in Resources */ = {isa = PBXBuildFile; fileRef = B1D16C162BBC830E008F987E /* surahData.json */; };
-		B1D16C1D2BBC834B008F987E /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = B1D16C1C2BBC834B008F987E /* test.json */; };
-		B1D16C1F2BBC8409008F987E /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D16C1E2BBC8409008F987E /* TestModel.swift */; };
-		B1D16C212BBDB2CC008F987E /* FinishMissionPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D16C202BBDB2CC008F987E /* FinishMissionPageView.swift */; };
 		D03DCCC32BB576C900CF07A1 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = D03DCCC22BB576C900CF07A1 /* Lottie */; };
 		D045CED32BB7E868004DA31B /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D045CED22BB7E868004DA31B /* UserModel.swift */; };
 		D045CED52BB7EABF004DA31B /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D045CED42BB7EABF004DA31B /* UserController.swift */; };
@@ -44,8 +45,6 @@
 		D0CE293F2BBC5930000F2A50 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CE293E2BBC5930000F2A50 /* HomePage.swift */; };
 		D0CE29412BBD394B000F2A50 /* dailyMission.json in Resources */ = {isa = PBXBuildFile; fileRef = D0CE29402BBD394B000F2A50 /* dailyMission.json */; };
 		D0CE29432BBD3AF3000F2A50 /* DailyMissionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CE29422BBD3AF3000F2A50 /* DailyMissionModel.swift */; };
-		D0E172392BB7305A00F9631E /* servishero_loading.json in Resources */ = {isa = PBXBuildFile; fileRef = D0E172382BB7305A00F9631E /* servishero_loading.json */; };
-		D0FE1B192BBB0FFF008736FE /* surahData.json in Resources */ = {isa = PBXBuildFile; fileRef = D0FE1B182BBB0FFF008736FE /* surahData.json */; };
 		D0FE1B1B2BBB1072008736FE /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE1B1A2BBB1072008736FE /* ModelData.swift */; };
 		D0FE1B1D2BBB15D9008736FE /* LottieViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE1B1C2BBB15D9008736FE /* LottieViewComponent.swift */; };
 /* End PBXBuildFile section */
@@ -68,6 +67,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B13AFC412BBE77B200003138 /* MissionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionCard.swift; sourceTree = "<group>"; };
 		B1D16C052BBC174D008F987E /* PageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PageDetailView.swift; path = "go-ngaji/PageDetailView.swift"; sourceTree = SOURCE_ROOT; };
 		B1D16C072BBC63B7008F987E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = "go-ngaji/HomeView.swift"; sourceTree = SOURCE_ROOT; };
 		B1D16C092BBC6DBF008F987E /* DailyMissionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DailyMissionCard.swift; path = "go-ngaji/DailyMissionCard.swift"; sourceTree = SOURCE_ROOT; };
@@ -107,8 +107,6 @@
 		D0CE293E2BBC5930000F2A50 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		D0CE29402BBD394B000F2A50 /* dailyMission.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dailyMission.json; sourceTree = "<group>"; };
 		D0CE29422BBD3AF3000F2A50 /* DailyMissionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyMissionModel.swift; sourceTree = "<group>"; };
-		D0E172382BB7305A00F9631E /* servishero_loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = servishero_loading.json; sourceTree = "<group>"; };
-		D0FE1B182BBB0FFF008736FE /* surahData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = surahData.json; sourceTree = "<group>"; };
 		D0FE1B1A2BBB1072008736FE /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		D0FE1B1C2BBB15D9008736FE /* LottieViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -157,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				D00C45E92BBDC94E004D44B1 /* MissionPage.swift */,
+				B13AFC412BBE77B200003138 /* MissionCard.swift */,
 			);
 			path = Mission;
 			sourceTree = "<group>";
@@ -275,9 +274,6 @@
 				B1D16C142BBC830E008F987E /* servishero_loading.json */,
 				B1D16C1C2BBC834B008F987E /* test.json */,
 				B1D16C162BBC830E008F987E /* surahData.json */,
-				D04A663A2BB73E0200CCAB80 /* ngaji_loading.json */,
-				D0E172382BB7305A00F9631E /* servishero_loading.json */,
-				D0FE1B182BBB0FFF008736FE /* surahData.json */,
 				D0CE29402BBD394B000F2A50 /* dailyMission.json */,
 				D00C45D12BBD97C9004D44B1 /* weeklyMission.json */,
 				D00C45D62BBDC088004D44B1 /* missionTypeData.json */,
@@ -396,7 +392,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D00C45D22BBD97C9004D44B1 /* weeklyMission.json in Resources */,
-				D0FE1B192BBB0FFF008736FE /* surahData.json in Resources */,
 				D00C45D72BBDC088004D44B1 /* missionTypeData.json in Resources */,
 				D0BBE59B2BB566C2002C9766 /* Preview Assets.xcassets in Resources */,
 				D0CE29412BBD394B000F2A50 /* dailyMission.json in Resources */,
@@ -441,6 +436,7 @@
 				B1D16C0C2BBC71DD008F987E /* DailiMissionRow.swift in Sources */,
 				D045CED52BB7EABF004DA31B /* UserController.swift in Sources */,
 				D00C45DD2BBDC1ED004D44B1 /* StreakCard.swift in Sources */,
+				B13AFC422BBE77B200003138 /* MissionCard.swift in Sources */,
 				D0FE1B1D2BBB15D9008736FE /* LottieViewComponent.swift in Sources */,
 				D00C45EA2BBDC94E004D44B1 /* MissionPage.swift in Sources */,
 				D00C45ED2BBDF0AE004D44B1 /* LeaderboardPage.swift in Sources */,
@@ -455,9 +451,9 @@
 				D00C45D42BBDA1BC004D44B1 /* WeeklyMissionModel.swift in Sources */,
 				D00C45E52BBDC270004D44B1 /* HomeMotivationCard.swift in Sources */,
 				D00C45DF2BBDC222004D44B1 /* HomeProgressCard.swift in Sources */,
-                D00C45E72BBDC28C004D44B1 /* HomeMissionTypeTitle.swift in Sources */,
-                D0CE29432BBD3AF3000F2A50 /* DailyMissionModel.swift in Sources */,
-                D00C45E12BBDC23E004D44B1 /* HomeDailyMissionCard.swift in Sources */,
+				D00C45E72BBDC28C004D44B1 /* HomeMissionTypeTitle.swift in Sources */,
+				D0CE29432BBD3AF3000F2A50 /* DailyMissionModel.swift in Sources */,
+				D00C45E12BBDC23E004D44B1 /* HomeDailyMissionCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

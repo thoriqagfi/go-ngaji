@@ -50,7 +50,7 @@ struct FinishMissionPageView: View {
                 
                 Spacer()
                 
-                NavigationLink(destination: HomeView(), label: {
+                NavigationLink(destination: HomePage(), label: {
                     Text("Kembali ke Dashboard")
                         .font(.system(size: 19)) // Change font size
                         .foregroundColor(Color(.white)) // Change text color

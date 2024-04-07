@@ -57,6 +57,7 @@ struct HomePage: View {
         } detail: {
             Text("Select a Mission")
         }
+        .toolbar(.hidden)
     }
 }
 

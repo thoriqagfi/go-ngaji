@@ -35,7 +35,7 @@ struct ContentView: View {
 //        .listStyle(.inset)
         }
     }
-}
+
 
 #Preview {
     ContentView()

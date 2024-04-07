@@ -53,7 +53,7 @@ struct PageDetailView: View {
                         .foregroundColor(Color(.primary))
                     
                     ForEach(data, id: \.self) { mission in
-                        MissionCard(estimatedTime: mission.estimatedTime, title: mission.title, isReading: mission.isReading)
+                        DailyMissionCard(estimatedTime: mission.estimatedTime, title: mission.title, isReading: mission.isReading)
                     }
 
                 }
@@ -149,7 +149,7 @@ struct PageDetailView: View {
     }
 }
 
-struct MissionCard: View {
+struct DailyMissionCard: View {
     var estimatedTime:Int//in seconds
     var title:String
     var isReading:Bool
